@@ -2,7 +2,7 @@ let Home = () => {
     return (
         <div>
             <nav class="navbar bg-dark navbar-dark">
-                <a class="navbar-brand"><img src="https://sgp1.digitaloceanspaces.com/quickcompany/trademark/8f07f6f077098875.jpg"
+                <a class="navbar-brand"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/9e093c148151057.Y3JvcCw0MDQsMzE2LDk5NSwxMzc.png"
                     alt="logo" style={{ width: "50px;" }} />OptiKraft!-Krafter for your eye!</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
