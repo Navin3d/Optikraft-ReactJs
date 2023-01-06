@@ -1,34 +1,10 @@
+import Navbar from "../components/Navbar";
+
+
 let Home = () => {
     return (
         <div>
-            <nav class="navbar bg-dark navbar-dark">
-                <a class="navbar-brand"><img src="https://mir-s3-cdn-cf.behance.net/projects/404/9e093c148151057.Y3JvcCw0MDQsMzE2LDk5NSwxMzc.png"
-                    alt="logo" style={{ width: "50px;" }} />OptiKraft!-Krafter for your eye!</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="signup1.html"><i class="fas fa-user"></i> SIGN-IN</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="eyeglass.html"><i class="fas fa-glasses"></i> EYEGLASSES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSdtSJmtneS4LOvZZjUIET1vNIzD35-udctTXUWrHxFs3COZiA/viewform?usp=sf_link"><i
-                                    class="fas fa-stethoscope"></i> BOOK AN APPOINTMENT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><i class="far fa-address-book"></i> CONTACT US</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </nav>
+            <Navbar />
             <div id="demo" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>
