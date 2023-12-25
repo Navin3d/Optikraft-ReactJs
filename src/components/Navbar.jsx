@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
         <div>
             <nav class="navbar bg-dark navbar-dark">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     {/* <img
                         src="https://sgp1.digitaloceanspaces.com/quickcompany/trademark/8f07f6f077098875.jpg" alt="logo"
                         style={{ width: "40px" }} 

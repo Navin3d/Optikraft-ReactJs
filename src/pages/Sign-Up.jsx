@@ -20,7 +20,7 @@ const SignUPPage = () => {
                         <input type="checkbox" checked="checked" name="remember" style={{ marginBottom: "15px" }} /> Remember me
                     </label>
 
-                    <p id="one">By creating an account you agree to our <a href="#" style={{ color: "red" }}>Terms & Privacy</a>.</p>
+                    <p id="one">By creating an account you agree to our <a href="/" style={{ color: "red" }}>Terms & Privacy</a>.</p>
 
                     <div class="clearfix">
                         <button type="button" class="cancelbtn">Cancel</button>
