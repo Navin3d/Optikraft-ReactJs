@@ -3,10 +3,10 @@ const Navbar = () => {
         <div>
             <nav class="navbar bg-dark navbar-dark">
                 <a class="navbar-brand" href="#">
-                    <img
+                    {/* <img
                         src="https://sgp1.digitaloceanspaces.com/quickcompany/trademark/8f07f6f077098875.jpg" alt="logo"
                         style={{ width: "40px" }} 
-                    />
+                    /> */}
                     OptiKraft!-Krafter for your eye!
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -17,10 +17,10 @@ const Navbar = () => {
 
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="signup.html"><i class="fas fa-user"></i> SIGN-IN</a>
+                            <a class="nav-link" href="/sign-up"><i class="fas fa-user"></i> SIGN-IN</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="eyeglass.html"><i class="fas fa-glasses"></i> EYEGLASSES</a>
+                            <a class="nav-link" href="/eye-glass"><i class="fas fa-glasses"></i> EYEGLASSES</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link"
@@ -28,7 +28,7 @@ const Navbar = () => {
                                 <i class="fas fa-stethoscope"></i> BOOK AN APPOINTMENT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><i class="far fa-address-book"></i> CONTACT US</a>
+                            <a class="nav-link" href="/contact"><i class="far fa-address-book"></i> CONTACT US</a>
                         </li>
                     </ul>
 
