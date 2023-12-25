@@ -20,7 +20,7 @@ body {
 	padding-left: 4%;
 	text-align: center;
 	font-size: 30px;
-	color: #FF1694;
+	color: #555;
 	text-shadow: 2px 1px;
 	font-family: 'Philosopher', sans-serif;
 
@@ -30,7 +30,7 @@ body {
 	padding-left: 4%;
 	text-align: center;
 	font-size: 30px;
-	color: #FF1694;
+	color: #555;
 	text-shadow: 2px 1px;
 	font-family: 'Philosopher', sans-serif;
 
@@ -41,7 +41,7 @@ body {
 	padding-left: 4%;
 	text-align: center;
 	font-size: 30px;
-	color: #FF1694;
+	color: #555;
 	text-shadow: 2px 1px;
 	font-family: 'Philosopher', sans-serif;
 	;
@@ -50,7 +50,7 @@ body {
 .fa {
 	padding: 20px;
 	font-size: 70px;
-	width: 70px;
+	width: 100px;
 	text-align: center;
 	text-decoration: none;
 	margin: 5px 2px;
@@ -62,22 +62,22 @@ body {
 
 .fa-facebook {
 	background: white;
-	color: #FF1694;
+	color: #1641ff;
 }
 
 .fa-twitter {
 	background: white;
-	color: #FF1694;
+	color: #16aaff;
 }
 
 .fa-linkedin {
 	background: white;
-	color: #FF1694;
+	color: #16aaff;
 }
 
 .fa-youtube {
 	background: white;
-	color: #FF1694;
+	color: #ff1639;
 }
 
 .fa-instagram {
@@ -86,7 +86,7 @@ body {
 }
 
 .jumbotron {
-	background: #B09DB9;
+	background: #555;
 	text-align: center;
 	color: white;
 	font-size: 30px;
@@ -102,7 +102,7 @@ body {
 	text-align: center;
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 30px;
-	color: #FF1694;
+	color: #fff;
 }
 
 .navbar-brand {

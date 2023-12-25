@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import EyeGlass from "./pages/EyeGlass";
 import ContactPage from "./pages/ContactPage";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 const routes = createBrowserRouter([
@@ -35,6 +36,7 @@ const App = () => {
     <div>
       <Navbar />
       <RouterProvider router={routes} />
+      <Footer />
     </div>
   );
 }
